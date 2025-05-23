@@ -1,0 +1,348 @@
+*{
+    margin:0px;
+    font-family: 'Franklin Gothic Medium';
+    border:border-box;
+}
+.navbar {
+    height: 60px;
+    background-color:#020B16;
+    color: antiquewhite;
+    display:flex;
+}
+
+.nav-logo{
+    height:50px;
+    width:180px;
+    margin-left: 20px ;
+}
+.logo{
+    background-image:url("logo.png");
+    background-size:cover;
+    height:55px;
+   
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 12px;
+    margin-left: 30px ;
+    padding:5px;
+}
+.second{
+    font-size:1rem;
+   
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 40px ;
+}
+.search {
+    align-items: center;
+    height: 30px;
+    width:600px;
+    background-color:rgb(252, 140, 3);
+    border-radius: 4px;
+    margin:10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px ;
+}
+.search:hover{
+    border:2px solid rgb(252, 140, 3);
+}
+.select{
+    border-radius:2px;
+    background-color:#f3f3f3;
+    height:30px;
+    width:50px;
+    text-align: center;
+    border:none;
+    border-top-left-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input{
+    width:600px;
+    height:28.5px;
+    text-align:left;
+    font-size: 15px;
+    border:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-icon{
+    width:50px;
+    display:flex;
+    justify-content:center;
+    font-size:20px;
+    color:black;
+   
+}
+.rando{
+    margin:5px;
+   
+}
+.return{
+    font-size:13px;
+    margin-left: 40px ;
+}
+.order{
+    font-size:13px;
+    margin-left: 40px ;
+   
+}
+.cart{ 
+    padding:5px;
+    margin-left: 40px ;
+ 
+}
+.cart-icon{
+    font-size:20px;
+    color:rgb(252, 140, 3);
+    margin-left: 10px ;
+}
+.third{
+    font-size:13px;
+    margin-left:40px;
+
+}
+.fourth{
+    font-size:15spx;
+    margin-left:40px;
+}
+.sign-in{
+    padding:5px;
+}
+.menu{
+    font-size:20px;
+}
+.menu:hover{
+    border:2px solid rgb(252, 140, 3);
+}
+.panel-menu{
+    display:flex;
+}
+.panel-second {
+   height:27px;
+   background-color:#020b16d5;
+   display:flex;
+   color:white; 
+   font-size: 16px;
+   text-align: center; 
+  
+}
+.panel-all{
+    text-align:center;
+}
+.panel-all:hover{
+    border:1px solid rgba(255, 255, 255, 0.507);
+}
+.panel-opt{
+    display:flex;
+    margin-left:10px;
+}
+.panel-opt p{
+    margin-left:10px;
+}
+.panel-opt p:hover{
+    border:1px solid rgba(255, 255, 255, 0.507);
+}
+.books{
+    background-image:url(books.jpg);
+    background-size:cover;
+    height:350px;
+    width:100%;
+}
+.panel-book{
+    background-color:white;
+    color:#020B16;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.85rem;
+    position: relative;
+    top:260px;
+    width:98%;
+    left:15px;
+    right:15px;
+   
+}
+a{
+    color:rgb(12, 150, 230);
+}
+.boxes{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#7ffcf54f;
+
+}
+.box{
+    width:20%;
+    height:300px;    
+    background-color:rgba(255, 255, 255, 0.589);
+    padding: 20px 0px 15px;
+    margin:30px;
+}
+.image{
+    height:230px;
+    width:250px;
+    background-size:cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left: 12px;
+}
+.box a{
+    margin-left:15px;
+    text-decoration: none;
+    font-size:smaller;
+}
+.box a:hover{
+    border:1px solid rgba(30, 140, 243, 0.822) ;
+}
+h2{
+    font-weight: lighter;
+}
+footer{
+    margin-top:20px;
+}
+.panels{
+    background-color: #020B16;
+    color:antiquewhite;
+    display:flex;
+    height:50px;
+    justify-content:center;
+    align-items: center;
+    font-size:15px;
+}
+.panels:hover{
+    background-color:#021a38e1;
+}
+.panels a{
+    text-decoration:none;
+    color:white;
+}
+.panel2{
+    background-color: #020b16da;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel2 p{
+    font-size:15px;
+    color:white;
+}
+.inside{
+    margin-top: 20px;
+}
+.inside1{
+    margin-top:70px;
+}
+.inside2{
+    margin-bottom:40px;
+}
+.inside3{
+    margin-top:40px;
+}
+ul a{
+    display:block;
+    margin-top: 10px;
+    color:#cccccce8;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration:underline;
+}
+.panel3{
+    height:110px;
+    border-top: 1px solid #cccccc;
+    background-color:  #020b16da;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-logo {
+    background-image: url("amazon1.jpg");
+    height: 80px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:15px;
+    margin-left:75px;
+}
+.panel-drop, .currency, .country {
+    margin: 0 10px;
+    
+}
+
+select {
+    background-color: #131921;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.panel-4{
+    height:400px;
+    background-color:#020B16;
+    color:#cccccc;
+}
+.panel-option{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+.opt{
+    font-size: small;
+    margin-top: 10px;
+}
+.opt:hover{
+    text-decoration: underline;
+}
+.inside-1{
+    margin-top:20px;
+}
+.inside-1 a{
+    color:#cccccc;
+    text-decoration:none;
+}
+.inside-1 a:hover{
+    text-decoration:underline;
+}
+.inside-2{
+    margin-top:20px;
+}
+.inside-3{
+    margin-top:20px;
+}
+.last{
+    display:flex;
+    margin:35px;
+    justify-content: center;
+    font-size: small;
+    color:#cccccc;
+}
+.end:hover{
+    text-decoration:underline;
+}
+.end{
+    margin-left: 10px;
+}
+.copyright{
+    font-size: small;
+    display:flex;
+    justify-content: center;
+}
